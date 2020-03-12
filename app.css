@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+header {
+    background-color: hsl(240,0%,15%);
+    color: hsl(60,10%,70%)
+}
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.header-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: auto 500px;
+}
+
+.left-header {
+    grid-column: 1 / span 1;
+}
+
+.right-header {
+    grid-column: 2 / span 1;
+    align-self: center;
+}
+.heading {
+    font-size: 36px;
+}
+
+.tagline {
+    font-size: 14px;
+}
+
+nav {
+    background-color: hsl(240,0%,5%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(60,10%,70%);
+}
+
+.main-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: 300px auto 630px;
+}
+
+.placeholder {
+    border-style: solid;
+    border-width: 1px;
+    border-color: hsl(60,10%,90%);
+    border-top: none;
+    border-bottom: none;
+}
+
+.hero-banner {
+    grid-column: 3 / span 1;
+    width: 630px;
+    height: 300px;
+    overflow: hidden;
+    background-position: center center;
+    justify-self: end;
+}
+
+.article-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-block {
+
+}
