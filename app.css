@@ -91,3 +91,16 @@ a {
 .article-block {
 
 }
+
+footer {
+    background-color: hsl(240,0%,15%);
+    color: hsl(60,10%,70%)
+}
+
+.footer-text {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 12px;
+}
