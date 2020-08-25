@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
 
+h1, h2 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 header {
     background-color: hsl(240,0%,15%);
     color: hsl(60,10%,70%)
@@ -25,11 +34,12 @@ body {
     grid-column: 2 / span 1;
     align-self: center;
 }
-.heading {
+
+h1.heading {
     font-size: 36px;
 }
 
-.tagline {
+h2.tagline {
     font-size: 14px;
 }
 
